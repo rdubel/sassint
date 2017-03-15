@@ -1,3 +1,10 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #3097D1;
+}
 
 /*# sourceMappingURL=master.css.map */
