@@ -1,3 +1,6 @@
+@import "nav";
+@import "base";
+
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -6,4 +9,14 @@
 header {
     background-color: #3097D1;
 
+}
+
+#logo {
+    width: 85px;
+    height: 24px;
+
+}
+
+#aside1 {
+    margin-top: 4em;
 }

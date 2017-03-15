@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang=en>
+
 <head>
     <meta charset=UTF-8>
     <meta name=viewport content=width=device-width, initial-scale=1.0>
@@ -7,13 +8,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="./static/external/bootstrap/dist/css/bootstrap.css">
     <script src="./static/external/jquery/dist/jquery.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./static/external/font-awesome/css/font-awesome.css">
     <link rel=stylesheet href=./static/css/master.css>
 </head>
+
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img id="logo" src="./static/img/brand-white.png" alt="logo"></a>
+                <button type="button" name="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Docs</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
-        <header>
-            <!-- NAVBAR HERE PLS -->
-        </header>
         <div class="row">
             <div class="col-xs-12 col-md-3">
                 <aside id="aside1">
@@ -59,15 +79,16 @@
                             <h2>GabeN</h2>
                             <p id="timestamp">4 min</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsum ipsam, nihil eum perspiciatis earum a quae quaerat perferendis. Aliquid officiis deserunt, vero sequi, expedita maiores dignissimos perferendis tenetur numquam.</p>
-                            <img src="http://lorempixel.com/273/182" alt="">
-                            <img src="http://lorempixel.com/182/182" alt="">
-                            <img src="http://lorempixel.com/182/182" alt="">
-                            <img src="http://lorempixel.com/273/182" alt="">
+                            <img src="http://lorempixel.com/273/182" alt="magnificent landscape">
+                            <img src="http://lorempixel.com/182/182" alt="magnificent landscape">
+                            <img src="http://lorempixel.com/182/182" alt="magnificent landscape">
+                            <img src="http://lorempixel.com/273/182" alt="magnificent landscape">
                             <ul>
                                 <li>
                                     <img src="http://lorempixel.com/40/40" alt="">
                                     <h2>Unnomau Hazsard</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur harum voluptas nemo ducimus repellat eos? Ea incidunt, dignissimos, aliquam ut optio atque reiciendis, quidem quisquam vitae aspernatur eum! Mollitia, voluptatibus.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur harum voluptas nemo ducimus repellat eos? Ea incidunt, dignissimos, aliquam ut optio atque reiciendis, quidem quisquam vitae aspernatur eum! Mollitia,
+                                        voluptatibus.</p>
                                 </li>
                                 <li>
                                     <img src="http://lorempixel.com/40/40" alt="">
@@ -87,12 +108,13 @@
                             <h2>Mike Litoris</h2>
                             <p id="timestamp">34 min</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsum ipsam, nihil eum perspiciatis earum a quae quaerat perferendis. Aliquid officiis deserunt, vero sequi, expedita maiores dignissimos perferendis tenetur numquam.</p>
-                            <img src="http://lorempixel.com/450/450" alt="labonimaj">
+                            <img src="http://lorempixel.com/450/450" alt="labonimaj" class="img-responsive">
                             <ul>
                                 <li>
                                     <img src="http://lorempixel.com/40/40" alt="têt">
                                     <h2>GabeN</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nesciunt asperiores itaque quo fugiat eligendi, enim nam rerum ipsa inventore laudantium ratione, aut veritatis distinctio sed ex perferendis, mollitia doloribus.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nesciunt asperiores itaque quo fugiat eligendi, enim nam rerum ipsa inventore laudantium ratione, aut veritatis distinctio sed ex perferendis, mollitia
+                                        doloribus.</p>
                                 </li>
                             </ul>
                         </article>
@@ -103,7 +125,7 @@
                 <aside id="aside2">
                     <article>
                         <h2>Sponsored</h2>
-                        <img src="http://lorempixel.com/230/230" alt="spons">
+                        <img src="http://lorempixel.com/230/230" alt="spons" class="img-responsive">
                         <h2>It might be time to visit Russia.</h2>
                         <p>Russia is so Chill, and everything looks drunk here, Also, were heard the people are pretty crazy, come and embrace communism in all it's glory, my friend !</p>
                         <button type="button" class="btn">Rush B cyka</button>
@@ -126,17 +148,17 @@
                     </article>
                     <article>
                         <p>&copy; 2017 Bootrstrap <a href="">About</a>
-                        <a href="">Help</a>
-                        <a href="">Terms</a>
-                        <a href="">Privacy</a>
-                        <a href="">Cookies</a>
-                        <a href="">Ads</a>
-                        <a href="">info</a>
-                        <a href="">Brand</a>
-                        <a href="">Blog</a>
-                        <a href="">Status</a>
-                        <a href="">Apps</a>
-                        <a href="">Advertise</a></p>
+                            <a href="">Help</a>
+                            <a href="">Terms</a>
+                            <a href="">Privacy</a>
+                            <a href="">Cookies</a>
+                            <a href="">Ads</a>
+                            <a href="">info</a>
+                            <a href="">Brand</a>
+                            <a href="">Blog</a>
+                            <a href="">Status</a>
+                            <a href="">Apps</a>
+                            <a href="">Advertise</a></p>
                     </article>
                 </aside>
             </div>
@@ -145,4 +167,5 @@
     <script src="./static/external/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
     <script src="./static/js/script.js" charset=utf-8></script>
 </body>
+
 </html>

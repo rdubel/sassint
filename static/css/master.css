@@ -1,3 +1,51 @@
+nav.navbar {
+  background: #3097D1;
+  border: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar-toggle {
+  float: right;
+}
+
+.nav.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav.navbar-nav li {
+  flex-grow: 1;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-size: 1.2em;
+}
+
+nav span {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  nav.navbar {
+    position: relative;
+  }
+
+  .nav .navbar-nav li {
+    display: inline-block;
+  }
+}
 .container-fluid {
   margin: 0;
   padding: 0;
@@ -5,6 +53,15 @@
 
 header {
   background-color: #3097D1;
+}
+
+#logo {
+  width: 85px;
+  height: 24px;
+}
+
+#aside1 {
+  margin-top: 4em;
 }
 
 /*# sourceMappingURL=master.css.map */
